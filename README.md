@@ -59,7 +59,10 @@ Open the 'simple_blender_pipeline_1.x.x.zip/godot' folder. Inside you will find 
 <br>
 <img width="280" height="207" alt="0708ec2baccf2b4c234e3a3a8a311956" src="https://github.com/user-attachments/assets/668d7746-bcf8-47cd-9572-e2741ec43ec7" />
 
-Next, go to Project>Project Settings>Plugins and enable the Simple Blender Pipeline addon.<br>
+Next, go to 'Project>Project Settings>Plugins' and enable the Simple Blender Pipeline addon.<br>
 <br>
 <img width="499" height="144" alt="99c9dde2382a0abc31f70d1ed1c3ba7a" src="https://github.com/user-attachments/assets/cc2b09ac-46e9-404d-9054-6f58ec3f1a79" />
 
+Lastly, we need to go to 'Project>Project Settings>Import Defaults' and click on the dropdown menu next to 'Importer'. Select 'Scene' and scroll down to 'Import Script>Path' and click on the file browser icon to the right.<br>
+<br>
+<img width="531" height="151" alt="import_path" src="https://github.com/user-attachments/assets/a7e731f3-ca69-4eca-afc0-8a91412fb2f3" />
