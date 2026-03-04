@@ -67,7 +67,11 @@ Lastly, we need to go to 'Project>Project Settings>Import Defaults' and click on
 <br>
 <img width="531" height="151" alt="import_path" src="https://github.com/user-attachments/assets/a7e731f3-ca69-4eca-afc0-8a91412fb2f3" /><br>
 <br>
-Navigate to 'addons/simple_blender_pipeline' and select the import_script.gd file. Press the save button near the bottom of the window and then reset Godot to insure that the plugin is initialized properly.<br>
+Navigate to 'addons/simple_blender_pipeline' and select the import_script.gd file. Press the save button near the bottom of the window and then restart Godot to insure that the addon is initialized properly.<br>
 <br>
-<img width="886" height="222" alt="save" src="https://github.com/user-attachments/assets/0c1cc9ce-a8b1-497d-beda-30324b9e20ad" />
+<img width="886" height="222" alt="save" src="https://github.com/user-attachments/assets/0c1cc9ce-a8b1-497d-beda-30324b9e20ad" /><br>
+<br>
+You're done installing the Godot addon! If you already have blend files imported into your project you will need to either manually assign the import script to them or delete them from the project and re-add them for the addon to work properly.
+
+### Installing the Blender Addon:
 
