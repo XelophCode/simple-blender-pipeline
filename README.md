@@ -73,7 +73,7 @@ Navigate to 'addons/simple_blender_pipeline' and select the import_script.gd fil
 <br>
 <img width="886" height="222" alt="save" src="https://github.com/user-attachments/assets/0c1cc9ce-a8b1-497d-beda-30324b9e20ad" /><br>
 <br>
-You're done installing the Godot addon! It's recommended that you go ahead and create a folder for storing your blend files. Inside of this folder, you will want to create a folder named "textures". If this folder doesn't already exist when importing a blend file, Godot will make the folder automatically but the SBP addon might glitch a bit as a result. One more thing to note, if you already have blend files imported into your project before installing the addon, you will need to manually assign the import script to them in Godot's importer menu.
+You're done installing the Godot addon! It's recommended that you go ahead and create a folder for storing your blend files. Inside of your new blend folder, you will want to create a folder named "textures". If this folder doesn't already exist when importing a blend file, Godot will make the folder automatically but the SBP addon might glitch a bit as a result. One more thing to note, if you already have blend files imported into your project before installing the addon, you will need to manually assign the import script to them in Godot's importer menu.
 
 ### Installing the Blender Addon:
 Open the 'simple_blender_pipeline_1.x.x.zip/blender' folder. Extract the 'simple_blender_pipeline_gd_1.x.x.zip' to somewhere that you can easily find it. Now open a new blender project and navigate to 'Edit>Preferences>Addons', click the dropdown arrow in the top right and select 'Install from Disk'.<br>
