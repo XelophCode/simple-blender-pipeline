@@ -1,5 +1,9 @@
 # Simple Blender Pipeline for Godot
 
+## Table of Contents
+[What is the Simple Blender Pipeline?](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#what-is-the-simple-blender-pipeline)
+
+
 ## What is the Simple blender Pipeline?
 
 The Simple Blender pipeline is an addon for both Blender and Godot that aims to make using .blend files in Godot easier. It leverages godot's node structure to allow the user to easily recompose the objects of a .blend file after importing it into Godot. The addon also aims to resolve some long standing issues with the default import pipeline. This addon is not a "kitchen sink" addon, it only focuses on what I think are the most pressing issues when working with .blend files.
