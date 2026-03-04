@@ -82,7 +82,10 @@ Open the 'simple_blender_pipeline_1.x.x.zip/blender' folder. Extract the 'simple
 <br>
 Navigate to where you extracted the 'simple_blender_pipeline_gd_1.x.x.zip' and select it. Make sure that this is the correct zip with the "gd" in it's name and not the zip that contains both plugins! The plugin is now installed, quickly double check that it's enabled with the checkbox checked next to the addon.<br>
 <br>
-<img width="591" height="432" alt="checked" src="https://github.com/user-attachments/assets/1d110769-6128-4c0e-af58-7530e5fab2ff" />
-
+<img width="591" height="432" alt="checked" src="https://github.com/user-attachments/assets/1d110769-6128-4c0e-af58-7530e5fab2ff" /><br>
+<br>
+Now close the Preferences window and navigate to 'File>External Data' and make sure that 'Automatically Pack Resources' is checked.<br>
+<br>
+<img width="428" height="555" alt="b9384f2e64a0840b779517b25d380f09" src="https://github.com/user-attachments/assets/1a58a4b2-00d1-4d79-ac2a-f230eedf5595" />
 
 
