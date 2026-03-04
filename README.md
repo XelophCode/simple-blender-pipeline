@@ -1,8 +1,11 @@
 # Simple Blender Pipeline for Godot
 
 ## Table of Contents
-[What is the Simple Blender Pipeline?](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#what-is-the-simple-blender-pipeline)
+>[What is the Simple Blender Pipeline?](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#what-is-the-simple-blender-pipeline)
 
+>[Features](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#features)
+>>[Recomposition](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#recomposition)
+>>[Material Management](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#material-management)
 
 ## What is the Simple blender Pipeline?
 
