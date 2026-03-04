@@ -76,7 +76,13 @@ Navigate to 'addons/simple_blender_pipeline' and select the import_script.gd fil
 You're done installing the Godot addon! If you already have blend files imported into your project you will need to either manually assign the import script to them or delete them from the project and re-add them for the addon to work properly.
 
 ### Installing the Blender Addon:
-Open the 'simple_blender_pipeline_1.x.x.zip/blender' folder. Extract the 'simple_blender_pipeline_gd_1.0.5.zip' to somewhere that you can easily find it. Now open a new blender project and navigate to 'Edit>Preferences>Addons', click the dropdown arrow in the top right and select 'Install from Disk'.<br>
+Open the 'simple_blender_pipeline_1.x.x.zip/blender' folder. Extract the 'simple_blender_pipeline_gd_1.x.x.zip' to somewhere that you can easily find it. Now open a new blender project and navigate to 'Edit>Preferences>Addons', click the dropdown arrow in the top right and select 'Install from Disk'.<br>
 <br>
-<img width="591" height="438" alt="d2da103aecbb7f66ae7f9ca50d754d00" src="https://github.com/user-attachments/assets/55619bd8-4000-4f66-97b6-f37633c3fd5b" />
+<img width="591" height="438" alt="d2da103aecbb7f66ae7f9ca50d754d00" src="https://github.com/user-attachments/assets/55619bd8-4000-4f66-97b6-f37633c3fd5b" /><br>
+<br>
+Navigate to where you extracted the 'simple_blender_pipeline_gd_1.x.x.zip' and select it. Make sure that this is the correct zip with the "gd" in it's name and not the zip that contains both plugins! The plugin is now installed, quickly double check that it's enabled with the checkbox checked next to the addon.<br>
+<br>
+<img width="591" height="432" alt="checked" src="https://github.com/user-attachments/assets/1d110769-6128-4c0e-af58-7530e5fab2ff" />
+
+
 
