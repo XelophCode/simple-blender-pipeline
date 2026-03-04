@@ -11,10 +11,12 @@
 >[Misc Fixes](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#misc-fixes)
 
 [Installation](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#installation)
+>[Installing the Godot Addon](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#installing-the-godot-addon)<br>
+>[Installing the Blender Addon](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#installing-the-blender-addon)
 
 
 
-## What is the Simple blender Pipeline?
+## What is the Simple Blender Pipeline?
 
 The Simple Blender Pipeline is an addon for both Blender and Godot that aims to make using .blend files in Godot easier. It leverages Godot's node structure to allow the user to easily recompose the objects of a .blend file after importing it into Godot. The addon also aims to resolve some long standing issues with the default import pipeline. This addon is not a "kitchen sink" addon, it only focuses on what I think are the most pressing issues when working with .blend files. My main focus is for the addon to be lightweight and intuitive to use.
 
@@ -74,4 +76,7 @@ Navigate to 'addons/simple_blender_pipeline' and select the import_script.gd fil
 You're done installing the Godot addon! If you already have blend files imported into your project you will need to either manually assign the import script to them or delete them from the project and re-add them for the addon to work properly.
 
 ### Installing the Blender Addon:
+Open the 'simple_blender_pipeline_1.x.x.zip/blender' folder. Extract the 'simple_blender_pipeline_gd_1.0.5.zip' to somewhere that you can easily find it. Now open a new blender project and navigate to 'Edit>Preferences>Addons', click the dropdown arrow in the top right and select 'Install from Disk'.<br>
+<br>
+<img width="591" height="438" alt="d2da103aecbb7f66ae7f9ca50d754d00" src="https://github.com/user-attachments/assets/55619bd8-4000-4f66-97b6-f37633c3fd5b" />
 
