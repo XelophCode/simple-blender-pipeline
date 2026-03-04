@@ -18,6 +18,8 @@ https://github.com/user-attachments/assets/3e0f62eb-78f9-436e-9ef0-8852713d1af8
 * In Project Settings, you can define default material settings for imported materials.
 * These project settings can be overridden via the blender addon if you need a specific material to have unique settings.
 
+https://github.com/user-attachments/assets/12de0909-5681-47f7-a639-e895574be7cc
+
 ### Collision Shape Generation:
 * Mesh objects can be tagged to auto generate CollisionShape3Ds on import.
 * These CollisionShape3Ds can be recomposed just like the MeshInstance3Ds, This allows you to easily set up physics bodies in your scene tree and have your scene tree structure be respected if you make changes to the blend file.
