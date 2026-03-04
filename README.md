@@ -12,11 +12,7 @@ The Simple Blender pipeline is an addon for both Blender and Godot that aims to 
 * You can then reorganize each of these MeshInstances as you see fit in your scene tree.
 * If you make changes to the .blend file, your scene tree structure in Godot will be maintained.
 
-
-
 https://github.com/user-attachments/assets/3e0f62eb-78f9-436e-9ef0-8852713d1af8
-
-
 
 ### Material Management:
 * In Project Settings, you can define default material settings for imported materials.
