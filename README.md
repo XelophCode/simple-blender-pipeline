@@ -52,4 +52,9 @@ https://github.com/user-attachments/assets/b3db78fb-8991-4b13-a5ab-549476b6214b
 
 
 ## Installation
+Begin with downloading the newest release of the addon from the [Releases Page](https://github.com/XelophCode/simple-blender-pipeline/releases/tag/SimpleBlenderPipeline). This will be the 'simple_blender_pipeline_1.x.x.zip'. Inside of the zip will be an addon for Godot and an addon for Blender.
+
+### Installing the Godot Addon:
+Open the 'simple_blender_pipeline_1.x.x.zip/godot' folder. Inside you will find an 'addon' folder. Extract this 'addon' folder to your Godot project's root directory. The root directory should look like this:
+<img width="280" height="207" alt="0708ec2baccf2b4c234e3a3a8a311956" src="https://github.com/user-attachments/assets/668d7746-bcf8-47cd-9572-e2741ec43ec7" />
 
