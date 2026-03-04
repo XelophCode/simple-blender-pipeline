@@ -164,3 +164,9 @@ https://github.com/user-attachments/assets/9699bd29-fd17-46ab-b36f-df7539de5eea
 You can reparent any of the nodes under the "Unpacker" node. When you make changes to the .blend file, the unpacked nodes will maintain their position in the scene tree. This allows you to create blend files that contain models for multiple different uses that can be easily updated in the future. You can also combine this functionality with the collision shape generation to automatically create a collision shape for a mesh and then reparent it to a physics body. If you make changes to the mesh in Blender, those changes will automatically be reflected in Godot regardless of where it is in the scene tree.
 
 https://github.com/user-attachments/assets/9a12e078-bd5a-472a-8e03-cf9186275d60
+
+### Default Material Settings:
+
+In Project Settings you can define the default settings for materials when they're imported into the engine. This can be useful for games that have a ubiquitous artstyle. Are you making a retro psx game with pixelated textures? Set the default texture filter to 'Nearest'. Are you making a game with toon shading? Set the diffuse and specular modes to 'Toon'. If you run into a rare situation where the overridden defaults aren't desireable, you can either revert them in the project settings or use the 'Override Project Settings' option in the Blender addon. I'll explain the 'Override Project Settings' option in more detail later in this guide.
+
+https://github.com/user-attachments/assets/e36bf36d-0e43-4c6b-88d2-855e322ab7c9
