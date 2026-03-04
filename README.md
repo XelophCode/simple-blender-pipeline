@@ -14,6 +14,9 @@
 >[Installing the Godot Addon](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#installing-the-godot-addon)<br>
 >[Installing the Blender Addon](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#installing-the-blender-addon)
 
+[Getting Started](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#getting-started)
+>[Importing Your Blend File](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#getting-started)<br>
+>[Recomposition](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#recomposition-1)
 
 
 ## What is the Simple Blender Pipeline?
@@ -101,9 +104,10 @@ The installation of the Blender addon is complete! You can access the addon by p
 
 Now that we have both addons installed we will begin exploring the features of the Simple Blender Pipeline!
 
-### Importing your Blend File:
+### Importing Your Blend File:
 Upon adding your blend file to your Godot project, Godot will automatically convert it internally to a .tscn file. When you drag this file into an open scene's scene tree, you will see it a BlendFileUnpacker node, as well as a new Node3D with the objects of the blend file as children. So long as the BlendFileUnpacker node is in the scene tree, you now have a hot reload link established. If you make changes to the blend file and press ctrl+s then those changes will automatically be reflected in Godot.
 
 https://github.com/user-attachments/assets/addc99b2-53ac-42d7-83ec-799e624c69e1
 
 ### Recomposition:
+You can reparent any of the nodes under the "Unpacker" node. When you make changes to the .blend file,
