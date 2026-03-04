@@ -86,6 +86,8 @@ Navigate to where you extracted the 'simple_blender_pipeline_gd_1.x.x.zip' and s
 <br>
 Now close the Preferences window and navigate to 'File>External Data' and make sure that 'Automatically Pack Resources' is checked.<br>
 <br>
-<img width="428" height="555" alt="b9384f2e64a0840b779517b25d380f09" src="https://github.com/user-attachments/assets/1a58a4b2-00d1-4d79-ac2a-f230eedf5595" />
-
-
+<img width="428" height="555" alt="b9384f2e64a0840b779517b25d380f09" src="https://github.com/user-attachments/assets/1a58a4b2-00d1-4d79-ac2a-f230eedf5595" /><br>
+<br>
+Navigate to 'File>Defaults' and select 'Save Startup File'. This will ensure that the 'Automatically Pack Resources' setting is always checked in new blend files. It's important to note that this might not be desireable behavior in all usages of Blender, so this may need to be manually disabled when not using blender for the SBP plugin. This can be undone by simply unchecking the 'Automatically Pack Resources' and resaving the startup file.<br>
+<br>
+<img width="414" height="451" alt="909dc1e9e9567c25e5a67d5830e5f88a" src="https://github.com/user-attachments/assets/45a1e6f8-0497-4620-8788-6f338276d7cf" />
