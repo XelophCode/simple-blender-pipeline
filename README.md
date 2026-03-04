@@ -94,5 +94,5 @@ Navigate to 'File>Defaults' and select 'Save Startup File'. This will ensure tha
 <br>
 The installation of the Blender addon is complete! You can access the addon by pressing the 'n' key, you will see the Simple Blender Pipeline GD tab in the main viewport.<br>
 <br>
-<<img width="775" height="710" alt="f8ac91be87c8d5e4bf71fa0a366cb0c0" src="https://github.com/user-attachments/assets/6b4b6421-40cf-4776-b5f9-7004340eb6fb" /><br>
-br>
+<img width="775" height="710" alt="f8ac91be87c8d5e4bf71fa0a366cb0c0" src="https://github.com/user-attachments/assets/6b4b6421-40cf-4776-b5f9-7004340eb6fb" /><br>
+<br>
