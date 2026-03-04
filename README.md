@@ -20,7 +20,9 @@
 [Getting Started](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#getting-started)
 
 >[Importing Your Blend File](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#getting-started)<br>
->[Recomposition](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#recomposition-1)
+>[Recomposition](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#recomposition-1)<br>
+>[Default Material Settings](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#default-material-settings)<br>
+
 
 ## What is the Simple Blender Pipeline?
 
@@ -155,7 +157,7 @@ Upon adding your blend file to your Godot project, Godot will automatically conv
 
 https://github.com/user-attachments/assets/addc99b2-53ac-42d7-83ec-799e624c69e1
 
-One important thing to note about the hot reloading link is that the scene must be open for the hot reload to work automatically. If the currently open tab does not contain the blend scene you're updating, the update will fail. The output window will notify you of any blend files that were not updated, as well as BlendFileUnpacker nodes will change their icon to reflect that they are out of date. Simply pressing the 'Reload' button on the BlendFileUnpacker will resync with your blend file. This is an unfortunate limitation of the engine but I've done my best to mitigate any annoyances.
+One important thing to note about the hot reloading link is that the scene must be open for the hot reload to work automatically. If the currently open tab does not contain the blend scene you're updating, the update will fail. The output window will notify you of any blend files that were not updated, as well as BlendFileUnpacker nodes will change their icon to reflect that they are out of date. Simply pressing the 'Reload' button on the BlendFileUnpacker will resync with your blend file. If you're worried that there may be un-updated BlendFileUnpackers in your project, you can click the 'Scan' button on any BlendFileUnpacker and you will get a list of un-updated nodes in the output window. This is an unfortunate limitation of the engine but I've done my best to mitigate any annoyances.
 
 https://github.com/user-attachments/assets/9699bd29-fd17-46ab-b36f-df7539de5eea
 
@@ -167,6 +169,12 @@ https://github.com/user-attachments/assets/9a12e078-bd5a-472a-8e03-cf9186275d60
 
 ### Default Material Settings:
 
-In Project Settings you can define the default settings for materials when they're imported into the engine. This can be useful for games that have a ubiquitous artstyle. Are you making a retro psx game with pixelated textures? Set the default texture filter to 'Nearest'. Are you making a game with toon shading? Set the diffuse and specular modes to 'Toon'. If you run into a rare situation where the overridden defaults aren't desireable, you can either revert them in the project settings or use the 'Override Project Settings' option in the Blender addon. I'll explain the 'Override Project Settings' option in more detail later in this guide.
+In Project Settings you can define the default settings for materials when they're imported into the engine. This can be useful for games that have a ubiquitous artstyle. Are you making a retro psx game with pixelated textures? Set the default texture filter to 'Nearest'. Are you making a game with toon shading? Set the diffuse and specular modes to 'Toon'. If you run into a rare situation where the overridden defaults aren't desireable, you can either revert them in the project settings or use the 'Override Project Settings' option in the Blender addon.
 
 https://github.com/user-attachments/assets/e36bf36d-0e43-4c6b-88d2-855e322ab7c9
+
+### Blender Settings:
+
+By default when you update your blend file, Godot will automatically apply certain default settings to the imported tscn file. As a result, if you want an imported MeshInstance3D to have it's transparency set to 0.5 you will need to change this setting manually everytime that you update your blend file. This is where the Simple Blender Pipeline comes in! In the Blender addon, you can define both mesh and material overrides to ensure that your changes are respected. Some of these override options are redundant (such as texture filtering for example) but I chose to include them in the addon due to them either being slightly obscured in Blender or them not having full feature parity with Godot. There are even some overrides that allow access to previously inaccessible settings like Godot's stencil buffer. All settings are stored per object in its custom properties. You can still set your own custom properties, just make sure that they don't include "sbp" in their name as that's how the addon finds relevant metadata.
+
+https://github.com/user-attachments/assets/e674cd50-675c-428c-9504-bd843509323e
