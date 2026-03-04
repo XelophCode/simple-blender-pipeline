@@ -65,4 +65,9 @@ Next, go to 'Project>Project Settings>Plugins' and enable the Simple Blender Pip
 
 Lastly, we need to go to 'Project>Project Settings>Import Defaults' and click on the dropdown menu next to 'Importer'. Select 'Scene' and scroll down to 'Import Script>Path' and click on the file browser icon to the right.<br>
 <br>
-<img width="531" height="151" alt="import_path" src="https://github.com/user-attachments/assets/a7e731f3-ca69-4eca-afc0-8a91412fb2f3" />
+<img width="531" height="151" alt="import_path" src="https://github.com/user-attachments/assets/a7e731f3-ca69-4eca-afc0-8a91412fb2f3" /><br>
+<br>
+Navigate to 'addons/simple_blender_pipeline' and select the import_script.gd file. Press the save button near the bottom of the window and then reset Godot to insure that the plugin is initialized properly.<br>
+<br>
+<img width="886" height="222" alt="save" src="https://github.com/user-attachments/assets/0c1cc9ce-a8b1-497d-beda-30324b9e20ad" />
+
