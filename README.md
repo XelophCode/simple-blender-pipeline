@@ -110,4 +110,6 @@ Upon adding your blend file to your Godot project, Godot will automatically conv
 https://github.com/user-attachments/assets/addc99b2-53ac-42d7-83ec-799e624c69e1
 
 ### Recomposition:
-You can reparent any of the nodes under the "Unpacker" node. When you make changes to the .blend file,
+You can reparent any of the nodes under the "Unpacker" node. When you make changes to the .blend file, the unpacked nodes will maintain thier position in the scene tree. This allows you to create blend files that contain models for multiple different uses that can be easily updated in the future. You can also combine this functionality with the collision shape generation to automatically create a collision shape for a mesh and then reparent it to a physics body. If you make changes to the mesh in blender, those changes will automatically be reflected in Godot regardless of where it is in the scene tree.
+
+https://github.com/user-attachments/assets/9d366225-8811-440b-889c-569d1c308941
