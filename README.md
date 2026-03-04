@@ -1,4 +1,4 @@
-<img width="500" height="69" alt="Simple Blender Pipeline (1)" src="https://github.com/user-attachments/assets/45b7b1ec-e681-4b5d-9f0c-a1500ceba03c" />
+<img width="2000" height="366" alt="final1" src="https://github.com/user-attachments/assets/08ba55d8-d3e4-46da-af17-7024dc49e452" />
 
 ## Table of Contents
 [__What is the Simple Blender Pipeline?__](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#what-is-the-simple-blender-pipeline)
