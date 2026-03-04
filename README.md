@@ -26,6 +26,8 @@ https://github.com/user-attachments/assets/12de0909-5681-47f7-a639-e895574be7cc
 * You can discard the mesh object if you only want the CollisionShape3D.
 * The debug visuals in the Godot editor can be automatically hidden on import, this is useful for when you don't want your level geometry to be covered in a z-fighting blue mesh while working.
 
+https://github.com/user-attachments/assets/b3db78fb-8991-4b13-a5ab-549476b6214b
+
 ### Blender Options:
 * The Blender plugin features the option to save your blend file in a location outside of your godot project and then push the save to your godot directory when you're ready to push an update.
 * You can also set .blend file wide default settings. These settings are overidden by individual settings on objects.
