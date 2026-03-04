@@ -109,7 +109,9 @@ Upon adding your blend file to your Godot project, Godot will automatically conv
 
 https://github.com/user-attachments/assets/addc99b2-53ac-42d7-83ec-799e624c69e1
 
+One important thing to note about the hot reloading link is that the scene must be open for the hot reload to work automatically. If the currently open tab does not contain the blend scene you're updating, the update will fail. The output window will notify you of any blend files that were not updated, as well as BlendFileUnpacker nodes will change their icon to reflect that they are out of date. Simply pressing the 'Reload' button on the BlendFileUnpacker will resync with your blend file. This is an unfortunate limitation of the engine but I've done my best to mitigate any annoyances.
+
+https://github.com/user-attachments/assets/d33d051a-fff6-4edd-ad5e-42cb36f434c5
+
 ### Recomposition:
 You can reparent any of the nodes under the "Unpacker" node. When you make changes to the .blend file, the unpacked nodes will maintain thier position in the scene tree. This allows you to create blend files that contain models for multiple different uses that can be easily updated in the future. You can also combine this functionality with the collision shape generation to automatically create a collision shape for a mesh and then reparent it to a physics body. If you make changes to the mesh in blender, those changes will automatically be reflected in Godot regardless of where it is in the scene tree.
-
-https://github.com/user-attachments/assets/9d366225-8811-440b-889c-569d1c308941
