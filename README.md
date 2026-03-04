@@ -90,4 +90,9 @@ Now close the Preferences window and navigate to 'File>External Data' and make s
 <br>
 Navigate to 'File>Defaults' and select 'Save Startup File'. This will ensure that the 'Automatically Pack Resources' setting is always checked in new blend files. It's important to note that this might not be desireable behavior in all usages of Blender, so this may need to be manually disabled when not using blender for the SBP plugin. This can be undone by simply unchecking the 'Automatically Pack Resources' and resaving the startup file.<br>
 <br>
-<img width="414" height="451" alt="909dc1e9e9567c25e5a67d5830e5f88a" src="https://github.com/user-attachments/assets/45a1e6f8-0497-4620-8788-6f338276d7cf" />
+<img width="414" height="451" alt="909dc1e9e9567c25e5a67d5830e5f88a" src="https://github.com/user-attachments/assets/45a1e6f8-0497-4620-8788-6f338276d7cf" /><br>
+<br>
+The installation of the Blender addon is complete! You can access the addon by pressing the 'n' key, you will see the Simple Blender Pipeline GD tab in the main viewport.<br>
+<br>
+<<img width="775" height="710" alt="f8ac91be87c8d5e4bf71fa0a366cb0c0" src="https://github.com/user-attachments/assets/6b4b6421-40cf-4776-b5f9-7004340eb6fb" /><br>
+br>
