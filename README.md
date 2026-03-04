@@ -1,5 +1,3 @@
-# Simple Blender Pipeline for Godot
-
 <img width="500" height="69" alt="Simple Blender Pipeline (1)" src="https://github.com/user-attachments/assets/45b7b1ec-e681-4b5d-9f0c-a1500ceba03c" />
 
 ## Table of Contents
