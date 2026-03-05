@@ -26,9 +26,12 @@
 >[Advanced Options](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#advanced-options)<br>
 >[Misc Features](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#misc-features)
 
-[Troubleshooting]
+[Troubleshooting](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#troubleshooting)
 
->[When I drag the .blend file into a scene nothing happens](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#when-i-drag-the-blend-file-into-a-scene-nothing-happens)
+>[When I drag the .blend file into a scene nothing happens](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#when-i-drag-the-blend-file-into-a-scene-nothing-happens)<br>
+>[I'm saving my .blend file but it's not updating the unpacked nodes in the scene tree](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#im-saving-my-blend-file-but-its-not-updating-the-unpacked-nodes-in-the-scene-tree)<br>
+>[The output messages are annoying](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#the-output-messages-are-annoying)<br>
+>[Disabling the addon doesn't fully disable it](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#disabling-the-addon-doesnt-fully-disable-it)
 
 
 
