@@ -40,6 +40,8 @@ The Simple Blender Pipeline is an addon for both Blender and Godot that aims to 
 
 * If you make changes to the .blend file, your scene tree structure in Godot will be maintained.
 
+* Iteration is easy thanks to a hot reload system! Simply press ctrl+s in Blender to see your changes in Godot!
+
 https://github.com/user-attachments/assets/3e0f62eb-78f9-436e-9ef0-8852713d1af8
 
 ### Material Management:
@@ -184,3 +186,26 @@ https://github.com/user-attachments/assets/e674cd50-675c-428c-9504-bd843509323e
 The Blender addon also features an advanced options menu. If you don't want every ctrl+s to automatically be pushed to your Godot project, you can save your .blend file outside of the project and instead use the 'Save Blend File to Godot' menu under 'Advanced Options'. Simply set the name of the file and choose where it will be saved and then press 'Save Blend' when you are ready to push changes to your Godot project! The advanced options menu also allows you to set .blend-wide override settings. For example, If you want everything in your .blend file to have 'Nearest' filtering applied by default, add a .blend override and set it's texture filtering. It's important to note that individual object overrides supercede a .blend-wide override. So if you want everything to be 'Nearest' filtering except for one object, simply set the exception's texture override to 'Linear'.
 
 https://github.com/user-attachments/assets/65130f10-9ae4-41fb-bb11-976ced63bcc1
+
+### Misc Features:
+
+By default the addon does a few things, most of which can be disabled in the Project Settings in Godot.
+* Specular IOR in Blender is used for the Metallic Specular setting on Godot materials.
+* Float Arrays in Blender Custom Properties are automatically converted into Vector metadata in Godot.
+* The Coat Tint property in Blender is used for the Stencil Color in Godot. This is a compromise to be able to properly store color data and may not be desireable if you're actually using the Coat Tint for something.
+* All SBP metadata on meshes is automatically removed after import. This helps to declutter your imported mesh metadata if you have your own custom properties attached.
+
+## Frequently Asked Questions:
+
+### When I drag the .blend file into a scene nothing happens.
+Make sure that the blend file has it's import script set to import_script.gd. You can check this by double clicking the blend file in the FileSystem tab. Blend files that were imported BEFORE installing the plugin will not have the import script automatically attached.
+
+### I'm saving my .blend file but it's not updating the unpacked nodes in the scene tree.
+The addon's hot reload only works if the BlendFileUnpacker is present in the scene, and that scene tab is currently focused in the editor. If you are on a different open scene tab, the addon is unable to update the unpacked nodes automatically. Changes are still being made to the .blend file, you just need to navigate to the BlendFileUnpacker node and press 'Reload' to update. It's also good practice to periodically use the 'Scan' button on BlendFileUnpacker nodes to see if there's any scenes that are not up to date.
+
+### The output messages are annoying.
+This can be disabled in the Project Settings under Simple Blender Pipeline>Settings>Print Updates.
+
+### Disabling the addon doesn't fully disable it.
+To temporarily disable the addon, there's a setting under Project Settings that will fully stop functionality of the addon if set to true. If you wish to uninstall the addon, simply work your way backwards through the installation guide and delete all BlendFileUnpacker nodes from your project.
+
