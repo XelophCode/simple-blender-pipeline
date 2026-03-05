@@ -22,6 +22,14 @@
 >[Importing Your Blend File](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#getting-started)<br>
 >[Recomposition](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#recomposition-1)<br>
 >[Default Material Settings](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#default-material-settings)<br>
+>[Blender Settings](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#blender-settings)<br>
+>[Advanced Options](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#advanced-options)<br>
+>[Misc Features](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#misc-features)
+
+[Troubleshooting]
+
+>[When I drag the .blend file into a scene nothing happens](https://github.com/XelophCode/simple-blender-pipeline/tree/main?tab=readme-ov-file#when-i-drag-the-blend-file-into-a-scene-nothing-happens)
+
 
 
 ## What is the Simple Blender Pipeline?
@@ -195,7 +203,7 @@ By default the addon does a few things, most of which can be disabled in the Pro
 * The Coat Tint property in Blender is used for the Stencil Color in Godot. This is a compromise to be able to properly store color data and may not be desireable if you're actually using the Coat Tint for something.
 * All SBP metadata on meshes is automatically removed after import. This helps to declutter your imported mesh metadata if you have your own custom properties attached.
 
-## Frequently Asked Questions:
+## Troubleshooting:
 
 ### When I drag the .blend file into a scene nothing happens.
 Make sure that the blend file has it's import script set to import_script.gd. You can check this by double clicking the blend file in the FileSystem tab. Blend files that were imported BEFORE installing the plugin will not have the import script automatically attached.
