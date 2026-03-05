@@ -93,7 +93,7 @@ Begin with downloading the newest release of the addon from the [Releases Page](
 
 ### Installing the Godot Addon:
 
-Open the 'simple_blender_pipeline_1.x.x.zip/godot' folder. Inside you will find an 'addon' folder. Extract this 'addon' folder to your Godot project's root directory. The file system should look like this:<br>
+Open the 'simple_blender_pipeline_1.x.x.zip/godot' folder. Inside you will find an 'addons' folder. Extract this 'addons' folder to your Godot project's root directory. The file system should look like this:<br>
 
 <br>
 
