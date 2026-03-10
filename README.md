@@ -1,5 +1,8 @@
 <img width="2000" height="366" alt="final1" src="https://github.com/user-attachments/assets/4123fbdc-b8c7-4c84-917e-2c9cbebffeea" />
 
+Discord:
+https://discord.gg/FreyDm5MK9
+
 ## Table of Contents
 
 [__What is the Simple Blender Pipeline?__](https://github.com/XelophCode/simple-blender-pipeline?tab=readme-ov-file#what-is-the-simple-blender-pipeline)
